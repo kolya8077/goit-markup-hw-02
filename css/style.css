@@ -1,0 +1,168 @@
+:root {
+  --them-color: #2196f3;
+  --text-primary: #212121;
+  --text-secondary: #000000;
+  --text-secondary-lighter: #757575;
+
+  --primary-font: "roboto";
+  --secondary-font: "raleway";
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: #ffffff;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+/* =================header================= */
+
+.webstudio {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.web {
+  color: var(--them-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--text-primary);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--them-color);
+}
+
+.active-page {
+  color: var(--them-color);
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--text-secondary-lighter);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--them-color);
+}
+
+/* =================header================= */
+
+/* =================main studio================= */
+
+/* hero */
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.hero-order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--them-color);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.name-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.paragraph-list {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-secondary-lighter);
+}
+
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.name-people {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--text-primary);
+}
+
+.signature {
+  font-size: 16px;
+  line-height: 1.18px;
+  color: var(--text-secondary-lighter);
+}
+
+/* =================main studio================= */
+
+/* =================main portfolio================= */
+.maine-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.maine-button:hover,
+.maine-button:focus {
+  color: #ffffff;
+  background-color: var(--them-color);
+}
+.title-card {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--text-primary);
+}
+
+.card-description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-secondary-lighter);
+}
+/* =================main portfolio================= */
+
+/* =================footer================= */
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-secondary);
+}
+/* =================footer================= */ ;
