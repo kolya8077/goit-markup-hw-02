@@ -127,6 +127,10 @@ address {
   color: var(--text-primary);
 }
 
+.team {
+  background-color: #f5f4fa;
+}
+
 .name-people {
   font-weight: 500;
   font-size: 16px;
@@ -195,5 +199,12 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-secondary);
+}
+
+.contacts-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 /* =================footer================= */ ;
